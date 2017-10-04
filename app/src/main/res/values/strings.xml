@@ -1,0 +1,46 @@
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Stock Hawk</string>
+    <string name="header_stock_plot_toolbar">Prices over time</string>
+
+    <!-- preferences strings -->
+    <string name="pref_display_mode_key" translatable="false">displayMode</string>
+    <string name="pref_display_mode_default">@string/pref_display_mode_percentage_key</string>
+    <string name="pref_display_mode_absolute_key" translatable="false">absolute</string>
+    <string name="pref_display_mode_percentage_key" translatable="false">percentage</string>
+    <string name="pref_wrong_stock_key" translatable="false">wrongStock</string>
+
+
+
+    <string name="pref_stocks_initialized_key" translatable="false">initialized</string>
+    <string name="pref_stocks_key" translatable="false">stocks</string>
+    <string name="default_stocks_yahoo" translatable="false">YHOO</string>
+    <string name="default_stocks_apple" translatable="false">AAPL</string>
+    <string name="default_stocks_microsoft" translatable="false">MSFT</string>
+    <string name="default_stocks_facebook" translatable="false">FB</string>
+
+    <string name="action_change_units">Change the stock units display mode.</string>
+    <string name="fab_description">Add a new stock.</string>
+    <string name="chart_description">Prices over time line chart.</string>
+
+    <!-- dialog strings -->
+    <string name="dialog_title">Add Stock</string>
+    <string name="dialog_hint">Symbol (e.g. <xliff:g id="symbol_eg">GOOG</xliff:g>)</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_add">Add</string>
+
+    <!-- error messages strings -->
+    <string name="error_no_network">No network connectivity! Will load stock cursor when the network is available.</string>
+    <string name="error_no_stocks">No stocks added! Hit the floating action button to add one.</string>
+    <string name="error_no_chart_data">No stock history data! We can not plot the line.</string>
+    <string name="empty_stock_list">No Stock Information Available</string>
+
+    <!-- toast messages strings -->
+    <string name="toast_stock_added_no_connectivity">Symbol <xliff:g id="symbol_name">%1$s</xliff:g> added. Will refresh when network available.</string>
+    <string name="toast_no_connectivity">Will refresh when network available.</string>
+    <string name="toast_invalid_symbol">Some of the symbols you added do not belong to a stock.</string>
+
+    <!-- widget strings -->
+    <string name="title_widget_stocks">Stock values</string>
+</resources>

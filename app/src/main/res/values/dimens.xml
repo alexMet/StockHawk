@@ -1,0 +1,32 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+
+    <!-- fab button dimens -->
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_border_width">0dp</dimen>
+    <dimen name="fab_elevation">6dp</dimen>
+    <dimen name="fab_pressed_translation_z">12dp</dimen>
+
+    <!-- dialog edit text dimens -->
+    <dimen name="dialog_ev_margin">4dp</dimen>
+    <dimen name="dialog_ev_margin_top">16dp</dimen>
+
+    <!-- list item dimens -->
+    <dimen name="price_tv_margin">10sp</dimen>
+    <dimen name="change_tv_padding">3dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- chart related dimens -->
+    <item name="chart_x_axis_label_rotation" format="float" type="dimen">45</item>
+    <item name="chart_x_axis_text_size" format="float" type="dimen">10</item>
+    <item name="chart_y_axis_text_size" format="float" type="dimen">10</item>
+
+    <!-- stock widget dimens -->
+    <dimen name="widget_stocks_default_width">250dp</dimen>
+    <dimen name="widget_stocks_default_height">180dp</dimen>
+    <dimen name="widget_stocks_min_resize_width">220dp</dimen>
+    <dimen name="widget_stocks_min_resize_height">@dimen/widget_stocks_default_height</dimen>
+
+    <dimen name="stock_widget_text_size">24dp</dimen>
+    <dimen name="stock_widget_text_width">38dp</dimen>
+</resources>
